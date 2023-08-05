@@ -1,0 +1,2070 @@
+
+html {
+	font-size:62.5%;
+  
+}
+head{
+  width: 100%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 100%;
+
+}.main {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  box-sizing: border-box;
+  padding: 5rem 5rem 8.5rem 5rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.header {
+  margin: 0rem 5rem 4.8rem 5rem;
+  height: 3.6rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.logo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.standard-collection {
+  margin-right: 1rem;
+  width: 3.5rem;
+  height: 3.6rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.codevo {
+  margin-top: 0.0154rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.185;
+  color: #ff5050;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.navbar {
+  box-sizing: border-box;
+  padding: 0.099rem 0rem 0.122rem 27.6rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  
+}
+.navbar1 {
+  margin: 0.497rem 23.9rem 0.481rem 0rem;
+  height: calc(100% - 0.9782rem);
+  display: flex;
+  column-gap: 4rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.home{
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.185;
+  color: #ff5050;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.shop{
+  margin-top: 0.0962rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.185;
+  color: #4f5665;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.pages{
+  margin-top: 0.0962rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.185;
+  color: #4f5665;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.about-us{
+  margin-top: 0.0962rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.185;
+  color: #4f5665;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.lookups{
+  margin-top: 0.0962rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.185;
+  color: #4f5665;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.icons{
+  height: 100%;
+  display: flex;
+  column-gap: 4rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.search {
+  margin-top: 0.3974rem;
+  width: 3rem;
+  height: 2.9808rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.communication{
+  margin-top: 0.1987rem;
+  width: 3rem;
+  height: 2.9808rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.notification{
+  margin-bottom: 0.3974rem;
+  width: 3rem;
+  height: 2.9808rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.poster{
+  margin-bottom: 10rem;
+  box-sizing: border-box;
+  padding-left: 9.6rem;
+  width: 100%;
+  height: 60rem;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(252, 203, 144, 0.4399999976) -0%, rgba(255, 154, 158, 0.3799999952) 100%);
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.internal-poster {
+  margin: 12.2rem 15.874rem 12.8rem 0rem;
+  height: calc(100% - 25rem);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.group-1-int {
+  margin: 0rem 0rem 7.7rem 0.9rem;
+  width: 47rem;
+  flex-shrink: 0;
+}
+ .limited-time-only-for-winter {
+  margin: 0rem 0rem 2.4rem 0.1rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #000000;
+  font-family: Mada, 'Source Sans Pro';
+  white-space: nowrap;
+}
+ .internal-poster2 {
+  width: 100%;
+  height: 13rem;
+  position: relative;
+}
+.fashion{
+  width: 47rem;
+  height: 13rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 11.4rem;
+  font-weight: 400;
+  line-height: 1.1325;
+  color: #000000;
+  font-family: Aclonica, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.ellipse-1 {
+  width: 2.5rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 28.2rem;
+  top: 0.3rem;
+  box-shadow: inset 0 0.4rem 0.4rem rgba(255, 255, 255, 0.75);
+  background-color: #ff5d3a;
+  border-radius: 1.25rem;
+}
+.look-your-best-on-your-best-day{
+  margin-left: 0.1rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #000000;
+  font-family: Mada, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.button1 {
+  width: 21rem;
+  height: 6.3rem;
+  position: relative;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.rectangle1 {
+  width: 15rem;
+  height: 4.3rem;
+  position: absolute;
+  left: 3rem;
+  top: 2rem;
+  filter: blur(2.5rem);
+  background: linear-gradient(180deg, rgba(255, 80, 80, 0.5) -0%, #ff5d3a 100%);
+  border-radius: 1rem;
+}
+.rectangle2 {
+  width: 21rem;
+  height: 6rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: linear-gradient(180deg, rgba(255, 80, 80, 0.5) -0%, #ff5d3a 100%);
+  border-radius: 1rem;
+}
+.explore-now {
+  width: 9.5rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 5.8rem;
+  top: 1.7rem;
+  font-size: 1.6rem;
+  font-weight: 900;
+  line-height: 1.5625;
+  color: #ffffff;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.auto-group1 {
+  margin-bottom: 0.1rem;
+  width: 60.6257rem;
+  height: 59.9rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.poster-bg {
+  width: 54.2458rem;
+  height: 55.4rem;
+  position: absolute;
+  left: 0;
+  top: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.pexels-thirdman {
+  width: 48.6131rem;
+  height: 59.9rem;
+  position: absolute;
+  left: 12.0126rem;
+  top: 0;
+  object-fit: cover;
+  vertical-align: top;
+}
+.auto-group2 {
+  margin: 0rem 5rem 10rem 5rem;
+  width: calc(100% - 25rem);
+  height: 74.3rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.headings2 {
+  width: 19.8rem;
+  height: 7.6rem;
+  position: absolute;
+  left: 52.1rem;
+  top: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.collection-ab {
+  margin: 0rem 5.2rem 2rem 5.1rem;
+  width: calc(100% - 10.3rem);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.collection-ab .collection-abc {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5625;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.collection-abc .exclude-a {
+  margin-left: 0.1rem;
+  width: 8rem;
+  height: 0.6rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.our-top-collection {
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.0416666667;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.category-buttons1 {
+  width: 67rem;
+  height: 6.3rem;
+  position: absolute;
+  left: 28.5rem;
+  top: 12.6rem;
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+}
+.button-get-started-a{
+  margin-right: 5rem;
+  width: 13rem;
+  height: 6rem;
+  font-size: 1.6rem;
+  font-weight: 900;
+  line-height: 1.5625;
+  color: #4f5665;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0.8rem 1rem rgba(0, 0, 0, 0.0500000007);
+  background-color: #ffffff;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.button-get-started-ab {
+  width: 13rem;
+  height: 100%;
+  position: relative;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.rectangle-3 {
+  width: 9.2857rem;
+  height: 4.3rem;
+  position: absolute;
+  left: 1.8571rem;
+  top: 2rem;
+  filter: blur(2.5rem);
+  background: linear-gradient(180deg, rgba(255, 80, 80, 0.5) -0%, #ff5d3a 100%);
+  border-radius: 1rem;
+}
+.rectangle-4 {
+  width: 13rem;
+  height: 6rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: linear-gradient(180deg, rgba(255, 80, 80, 0.5) -0%, #ff5d3a 100%);
+  border-radius: 1rem;
+}
+.accessories {
+  width: 8.9rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 1.9847rem;
+  top: 1.8rem;
+  font-size: 1.6rem;
+  font-weight: 900;
+  line-height: 1.5625;
+  color: #ffffff;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.auto-group3 {
+  box-sizing: border-box;
+  padding-left: 5rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.button-get-started-3 {
+  margin-right: 5rem;
+  width: 13rem;
+  height: 6rem;
+  font-size: 1.6rem;
+  font-weight: 900;
+  line-height: 1.5625;
+  color: #4f5665;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0.8rem 1rem rgba(0, 0, 0, 0.0500000007);
+  background-color: #ffffff;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.button-get-started-4{
+  width: 13rem;
+  height: 6rem;
+  font-size: 1.6rem;
+  font-weight: 900;
+  line-height: 1.5625;
+  color: #4f5665;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0.8rem 1rem rgba(0, 0, 0, 0.0500000007);
+  background-color: #ffffff;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.accessories-items {
+  width: 124rem;
+  height: 71.4925rem;
+  position: absolute;
+  left: 0;
+  top: 2.8075rem;
+  display: flex;
+  align-items: center;
+}
+.accessory-no-1 {
+  width: 38rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.abcde {
+  margin-bottom: 16.3406rem;
+  width: 16rem;
+  height: 12.152rem;
+  position: relative;
+  background-size: 100% 100%;
+  background-image: url('./assets/pngitem1171479.png');
+  flex-shrink: 0;
+}
+.auto-group4{
+  width: 100%;
+  height: 43rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.rectangle-5 {
+  width: 38rem;
+  height: 42.9162rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: linear-gradient(180deg, rgba(252, 203, 144, 0.4399999976) -0%, rgba(255, 154, 158, 0.3799999952) 100%);
+  border-radius: 2.5rem;
+}
+.rectangle-6 {
+  width: 38rem;
+  height: 12rem;
+  position: absolute;
+  left: 0;
+  top: 31rem;
+  box-shadow: 0 1rem 5rem rgba(0, 0, 0, 0.0199999996);
+  background-color: #ffffff;
+  border-radius: 0 0 2.5rem 2.5rem;
+}
+.nike-air-mens-hoodie-imported-hoodie-1 {
+  width: 27.1rem;
+  height: 4.3rem;
+  position: absolute;
+  left: 2.5rem;
+  top: 32.5rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+}
+.price-button-1 {
+  width: 8rem;
+  height: 2.9rem;
+  position: absolute;
+  left: 2.5rem;
+  top: 38.5rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  color: #ffffff;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff5d3a;
+  border-radius: 1rem;
+}
+.png-shadow-1 {
+  width: 12.8rem;
+  height: 1.8rem;
+  position: absolute;
+  left: 12.6rem;
+  top: 26.8rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.rating-1 {
+  width: 9.75rem;
+  height: 1.5rem;
+  position: absolute;
+  left: 24.4rem;
+  top: 39.2rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.auto-group5 {
+  box-sizing: border-box;
+  padding: 28.493rem 0rem 0.084rem 5rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.accessory-no-2 {
+  margin-right: 5rem;
+  width: 38rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, rgba(252, 203, 144, 0.4399999976) -0%, rgba(255, 154, 158, 0.3799999952) 100%);
+  border-radius: 2.5rem;
+  flex-shrink: 0;
+}
+.auto-group6 {
+  box-sizing: border-box;
+  padding: 1.9rem 2rem 2.383rem 8.3rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.auto-group7 {
+  margin-bottom: 3rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.mycart {
+  margin-right: 1.8rem;
+  width: 21.4rem;
+  height: 21.9rem;
+  position: relative;
+  background-size: 100% 107.571%;
+  background-position: 0 -1.629rem;
+  background-image: url('./assets/gratis.png');
+  flex-shrink: 0;
+}
+.favorties-icon-1 {
+  margin-top: 0.1rem;
+  width: 4.5rem;
+  height: 4.5rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.ellipse-2 {
+  margin-right: 6.3rem;
+  width: 12.8rem;
+  height: 1.8rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.auto-group8 {
+  box-sizing: border-box;
+  padding: 1.517rem 3.85rem 1.516rem 2.5rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 1rem 5rem rgba(0, 0, 0, 0.0199999996);
+  background-color: #ffffff;
+  border-radius: 0 0 2.5rem 2.5rem;
+  flex-shrink: 0;
+}
+.armani-frok {
+  margin: 0rem 6.55rem 1.7rem 0rem;
+  max-width: 25.1rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.auto-group9 {
+  width: 100%;
+  height: 2.9rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.auto-group10 {
+  margin-right: 13.9rem;
+  width: 8rem;
+  height: 100%;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  color: #ffffff;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff5d3a;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.rating-2 {
+  width: 9.75rem;
+  height: 1.5rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.accessory-no-3 {
+  width: 38rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, rgba(252, 203, 144, 0.4399999976) -0%, rgba(255, 154, 158, 0.3799999952) 100%);
+  border-radius: 2.5rem;
+  flex-shrink: 0;
+}
+.auto-group11 {
+  box-sizing: border-box;
+  padding: 2rem 4.8rem 2.383rem 4.7rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.apple-watch-series-2 {
+  width: 28.5rem;
+  height: 24.8rem;
+  position: relative;
+  background-size: 100.547% 136.694%;
+  background-position: -0.0779rem -6.3rem;
+  background-image: url('./assets/apple-watch.png');
+  flex-shrink: 0;
+}
+.ellipse-3 {
+  margin-left: 3.1rem;
+  width: 12.8rem;
+  height: 1.8rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.auto-group12 {
+  box-sizing: border-box;
+  padding: 1.517rem 3.85rem 1.516rem 2.5rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 1rem 5rem rgba(0, 0, 0, 0.0199999996);
+  background-color: #ffffff;
+  border-radius: 0 0 2.5rem 2.5rem;
+  flex-shrink: 0;
+}
+.apple-watch-series-6 {
+  margin: 0rem 4.35rem 3.8rem 0rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.auto-group13 {
+  width: 100%;
+  height: 2.9rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.price-button-2 {
+  margin-right: 13.9rem;
+  width: 8rem;
+  height: 100%;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  color: #ffffff;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff5d3a;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.rating-3 {
+  width: 9.75rem;
+  height: 1.5rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.heading-new-arrival {
+  margin: 0rem 57.9rem 5rem 57.9rem;
+  width: calc(100% - 115.8rem);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.collection-latest {
+  margin: 0rem 5rem 2rem 5rem;
+  width: calc(100% - 10rem);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.new-arrival1 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5625;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.exclude-1 {
+  width: 8rem;
+  height: 0.6rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.latest-collection-1 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.0416666667;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.auto-group14 {
+  margin: 0 5rem;
+  width: calc(100% - 25rem);
+  height: 163.2rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.poster1 {
+  width: 57.1rem;
+  height: 25.9rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: contain;
+  vertical-align: top;
+}
+.trends-womens-smart-skirt-1 {
+  width: 16.7rem;
+  height: 5rem;
+  position: absolute;
+  left: 5rem;
+  top: 17.4rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.3888888889;
+  color: #ffffff;
+  font-family: Roboto, 'Source Sans Pro';
+}
+.poster2 {
+  width: 57.1rem;
+  height: 25.9rem;
+  position: absolute;
+  left: 0;
+  top: 30.9rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.trends-womens-smart-skirt-2 {
+  width: 16.7rem;
+  height: 5rem;
+  position: absolute;
+  left: 5rem;
+  top: 48.3rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.3888888889;
+  color: #ffffff;
+  font-family: Roboto, 'Source Sans Pro';
+}
+.poster3 {
+  width: 61.9rem;
+  height: 56.8rem;
+  position: absolute;
+  left: 62.1rem;
+  top: 0;
+  object-fit: contain;
+  vertical-align: top;
+}
+.trends-womens-smart-shirt-discover {
+  width: 16.8rem;
+  height: 10rem;
+  position: absolute;
+  left: 67.1rem;
+  top: 41.9rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.3888888889;
+  color: #ffffff;
+  font-family: Roboto, 'Source Sans Pro';
+}
+.heading-CATEGORIES {
+  width: 24.2rem;
+  height: 7.6rem;
+  position: absolute;
+  left: 49.9rem;
+  top: 66.8rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.collection-CATEGORIES {
+  margin: 0rem 7.4rem 2rem 7.4rem;
+  width: calc(100% - 14.8rem);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.categories-CATEGORIES {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5625;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.exclude-CATEGORIES {
+  margin-left: 0.2rem;
+  width: 8rem;
+  height: 0.6rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.latest-collection-1 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.0416666667;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.latest-collection-items {
+  width: 124rem;
+  height: 151.0701rem;
+  position: absolute;
+  left: 0;
+  top: 12.1299rem;
+  display: flex;
+  align-items: center;
+}
+.auto-group15 {
+  width: 28.5rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.item-1 {
+  margin-bottom: 12.2rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.pngitem1171479-1 {
+  margin: 0rem 0.6rem 63.205rem 0rem;
+  width: 14.3rem;
+  height: 10.8653rem;
+  position: relative;
+  background-size: 100% 100%;
+  background-image: url('./assets/pngitem1171479.png');
+  flex-shrink: 0;
+}
+.auto-group16 {
+  box-sizing: border-box;
+  padding-top: 19.4449rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.05rem rgba(144, 144, 144, 0.25);
+  background-color: #efefef;
+  border-radius: 2.5rem;
+  flex-shrink: 0;
+}
+.png-shadow-2 {
+  margin: 0rem 0rem 1.649rem 0rem;
+  width: 9.6rem;
+  height: 1.306rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.auto-group17 {
+  box-sizing: border-box;
+  padding: 1.3rem 1.2rem 1.2rem 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 0 0 2.5rem 2.5rem;
+  flex-shrink: 0;
+}
+.nike-air-mens-hoodie-imported-hoodie-2 {
+  margin-bottom: 2rem;
+  max-width: 15.1rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.auto-group18{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.item-2 {
+  margin-right: 13.8rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  color: #909090;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.rating-4 {
+  margin-bottom: 0.03rem;
+  width: 7.3rem;
+  height: 1.0865rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-3 {
+  box-sizing: border-box;
+  padding-top: 0.8rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.05rem rgba(144, 144, 144, 0.25);
+  background-color: #efefef;
+  border-radius: 2.5rem;
+  flex-shrink: 0;
+}
+.auto-group19{
+  margin: 0rem 4.4rem 0rem 2.5rem;
+  box-sizing: border-box;
+  padding: 18.645rem 5.05rem 1.649rem 6.95rem;
+  width: calc(100% - 6.9rem);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('./assets/microphone-headphones.png');
+  flex-shrink: 0;
+}
+.png-shadow-3 {
+  width: 9.6rem;
+  height: 1.306rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.auto-group20{
+  box-sizing: border-box;
+  padding: 1.3rem 1.2rem 1.2rem 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 0 0 2.5rem 2.5rem;
+  flex-shrink: 0;
+}
+.nike-air-mens-hoodie-imported-hoodie-3 {
+  margin-bottom: 2rem;
+  max-width: 15.1rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.auto-group21{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.item-4{
+  margin-right: 13.8rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  color: #909090;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.rating-5 {
+  margin-bottom: 0.03rem;
+  width: 7.3rem;
+  height: 1.0865rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.auto-group22 {
+  box-sizing: border-box;
+  padding: 72.27rem 0rem 0rem 2rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.auto-group23 {
+  margin-right: 1.2rem;
+  width: 32rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.item-5 {
+  margin-bottom: 10rem;
+  box-sizing: border-box;
+  padding-top: 1.9rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, rgba(252, 203, 144, 0.4399999976) -0%, rgba(255, 154, 158, 0.3799999952) 100%);
+  border-radius: 2.5rem;
+  flex-shrink: 0;
+}
+.auto-group24 {
+  margin: 0rem 2rem 1.959rem 2.1rem;
+  width: calc(100% - 4.1rem);
+  height: 21.341rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.favorties-icon-2 {
+  width: 4.5rem;
+  height: 4.5rem;
+  position: absolute;
+  left: 23.4rem;
+  top: 0.1rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.png-shadow-4 {
+  width: 10.7789rem;
+  height: 1.4627rem;
+  position: absolute;
+  left: 8.5105rem;
+  top: 19.8783rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.pngtreehand-drawn-vector-minimalist-cartoon {
+  width: 27.7rem;
+  height: 20rem;
+  position: relative;
+  left: 0;
+  top: 0;
+  background-size: 149.819% 207.5%;
+  background-position: -6rem -11.4rem;
+  background-image: url('./assets/drawn-vector.png');
+}
+.auto-group25 {
+  box-sizing: border-box;
+  padding: 1.2rem 1.2rem 1.72rem 2.246rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 1rem 5rem rgba(0, 0, 0, 0.0500000007);
+  background-color: #ffffff;
+  border-radius: 0 0 2.5rem 2.5rem;
+  flex-shrink: 0;
+}
+.auto-group26 {
+  margin-bottom: 2.736rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.nike-air-mens-hoodie-imported-hoodie-4 {
+  margin: 0.044rem 4.854rem 0rem 0rem;
+  max-width: 15.1rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.group-add_to_cart {
+  width: 8.6rem;
+  height: 3.1rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  color: #ffffff;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff5d3a;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.auto-group27 {
+  margin-right: 0.1895rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.item-6 {
+  margin-right: 17.0544rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  color: #909090;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.rating-6 {
+  margin-bottom: 0.0316rem;
+  width: 8.2105rem;
+  height: 1.2189rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-7 {
+  margin: 0rem 2.1rem 0rem 1.4rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.05rem rgba(144, 144, 144, 0.25);
+  box-sizing: border-box;
+  background-color: #efefef;
+  border-radius: 2.5rem;
+  flex-shrink: 0;
+}
+.auto-group28 {
+  box-sizing: border-box;
+  padding: 0.4rem 5.6rem 1.649rem 5.2rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.pngtreeapricot-lady-tot-women {
+  margin-bottom: 1.6449rem;
+  width: 17.7rem;
+  height: 17.4rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.png-shadow-5 {
+  margin-left: 0.4rem;
+  width: 9.6rem;
+  height: 1.306rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.auto-group29{
+  box-sizing: border-box;
+  padding: 1.3rem 2rem 1.2rem 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 0 0 2.5rem 2.5rem;
+  flex-shrink: 0;
+}
+.nike-air-mens-hoodie-imported-hoodie-5 {
+  margin-bottom: 2rem;
+  max-width: 15.1rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.auto-group30 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.item-8{
+  margin-right: 13rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  color: #909090;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.rating-7 {
+  margin-bottom: 0.03rem;
+  width: 7.3rem;
+  height: 1.0865rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.auto-group31 {
+  margin-right: 2.5rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.item-9{
+  margin: 0rem 0rem 12.2rem 0.8rem;
+  width: 28.5rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.05rem rgba(144, 144, 144, 0.25);
+  box-sizing: border-box;
+  background-color: #efefef;
+  border-radius: 2.5rem;
+  flex-shrink: 0;
+}
+.auto-group32 {
+  box-sizing: border-box;
+  padding: 2.6rem 5.9rem 1.649rem 5.8rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.summer-new-men-hawaiian-short-sleeved-shirt {
+  margin-bottom: 1.4451rem;
+  width: 16.8rem;
+  height: 15.4rem;
+  position: relative;
+  background-size: 100% 100%;
+  background-image: url('./assets/summer-new-men-hawaiian.png');
+  flex-shrink: 0;
+}
+.png-shadow-6 {
+  margin-left: 0.1rem;
+  width: 9.6rem;
+  height: 1.306rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.auto-group33 {
+  box-sizing: border-box;
+  padding: 1.3rem 2rem 1.2rem 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 0 0 2.5rem 2.5rem;
+  flex-shrink: 0;
+}
+.nike-air-mens-hoodie-imported-hoodie-6 {
+  margin-bottom: 2rem;
+  max-width: 15.1rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.auto-group34 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.item-10 {
+  margin-right: 13rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  color: #909090;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.rating-8 {
+  margin-bottom: 0.03rem;
+  width: 7.3rem;
+  height: 1.0865rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-11 {
+  margin-right: 0.8rem;
+  box-sizing: border-box;
+  padding-top: 0.2rem;
+  width: 28.5rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.05rem rgba(144, 144, 144, 0.25);
+  background-color: #efefef;
+  border-radius: 2.5rem;
+  flex-shrink: 0;
+}
+.auto-group35 {
+  margin: 0rem 2.164rem 1.649rem 2rem;
+
+  height: 20.5509rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.nike-air-max-nike-tiempo-football{
+  width: 24.3356rem;
+  height: 19.728rem;
+  position: relative;
+  left: 0;
+  top: 0;
+  background-size: 100% 141.915%;
+  background-position: -0rem -4.0415rem;
+  background-image: url('./assets/nike.png');
+}
+.png-shadow-7 {
+  width: 9.6rem;
+  height: 1.306rem;
+  position: absolute;
+  left: 7.45rem;
+  top: 19.2449rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.auto-group36 {
+  box-sizing: border-box;
+  padding: 1.3rem 2rem 1.2rem 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 0 0 2.5rem 2.5rem;
+  flex-shrink: 0;
+}
+.nike-air-mens-hoodie-imported-hoodie-7 {
+  margin-bottom: 2rem;
+  max-width: 15.1rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.auto-group37{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.item-12 {
+  margin-right: 13rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  color: #909090;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.rating-9 {
+  margin-bottom: 0.03rem;
+  width: 7.3rem;
+  height: 1.0865rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.auto-group38{
+  width: 28.5rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.item-13 {
+  margin-bottom: 12.2rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.05rem rgba(144, 144, 144, 0.25);
+  box-sizing: border-box;
+  background-color: #efefef;
+  border-radius: 2.5rem;
+  flex-shrink: 0;
+}
+.auto-group39 {
+  box-sizing: border-box;
+  padding: 2rem 5.2rem 1.649rem 5.1rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.apple-watch-series-2-hardware {
+  margin-bottom: 1.6449rem;
+  width: 18.2rem;
+  height: 15.8rem;
+  position: relative;
+  background-size: 100.547% 136.694%;
+  background-position: -0.0497rem -4.0137rem;
+  background-image: url('./assets/apple-watch.png');
+  flex-shrink: 0;
+}
+.png-shadow-8 {
+  margin-left: 0.1rem;
+  width: 9.6rem;
+  height: 1.306rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.auto-group40 {
+  box-sizing: border-box;
+  padding: 1.3rem 2rem 1.2rem 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 0 0 2.5rem 2.5rem;
+  flex-shrink: 0;
+}
+.nike-air-mens-hoodie-imported-hoodie-8 {
+  margin-bottom: 2rem;
+  max-width: 15.1rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.auto-group41 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.item-14 {
+  margin-right: 13rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  color: #909090;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.rating-10 {
+  margin-bottom: 0.03rem;
+  width: 7.3rem;
+  height: 1.0865rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.item-15 {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.05rem rgba(144, 144, 144, 0.25);
+  box-sizing: border-box;
+  background-color: #efefef;
+  border-radius: 2.5rem;
+  flex-shrink: 0;
+}
+.auto-group42 {
+  box-sizing: border-box;
+  padding: 2.6rem 7.3rem 1.649rem 7.2rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.shadow-removebg-preview-Dus {
+  margin-bottom: 2.8449rem;
+  width: 14rem;
+  height: 14rem;
+  position: relative;
+  background-size: 100% 100%;
+  background-image: url('./assets/sandle.png');
+  flex-shrink: 0;
+}
+.png-shadow-9 {
+  margin-left: 0.1rem;
+  width: 9.6rem;
+  height: 1.306rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.auto-group43 {
+  box-sizing: border-box;
+  padding: 1.3rem 2rem 1.2rem 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 0 0 2.5rem 2.5rem;
+  flex-shrink: 0;
+}
+.nike-air-mens-hoodie-imported-hoodie-9 {
+  margin-bottom: 2rem;
+  max-width: 15.1rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.auto-group44 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.item-16 {
+  margin-right: 13rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  color: #909090;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.rating-11 {
+  margin-bottom: 0.03rem;
+  width: 7.3rem;
+  height: 1.0865rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.footer {
+  box-sizing: border-box;
+  padding: 10.433rem 10rem 9.751rem 15rem;
+  width: 100%;
+  height: 48.3rem;
+  display: flex;
+  align-items: center;
+  background-color: rgba(252, 203, 144, 0.150000006);
+  flex-shrink: 0;
+}
+.logo-social-copyright{
+  margin: 0rem 9.9rem 1.694rem 0rem;
+  width: 25.6rem;
+  flex-shrink: 0;
+}
+.logo-footer {
+  margin: 0rem 13.5rem 1.932rem 0.1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.standard-collection-footer {
+  margin-right: 1rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.codevo {
+  margin-top: 0.0591rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.185;
+  color: #ff5d3a;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.lorem-footer {
+  margin: 0rem 0rem 2.768rem 0.1rem;
+  max-width: 25.5rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.875;
+  color: #4f5665;
+  font-family: Rubik, 'Source Sans Pro';
+}
+.social-media-buttons-footer {
+  margin: 0rem 0rem 2.879rem 0.1rem;
+  display: flex;
+  align-items: center;
+}
+.group-1314 {
+  margin: 0.096rem 2rem 0rem 0rem;
+  width: 3.36rem;
+  height: 3.2458rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.group-1313 {
+  margin: 0.059rem 2rem 0rem 0rem;
+  width: 3.36rem;
+  height: 3.2458rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.group-1312 {
+  margin: 0.059rem 2.02rem 0rem 0rem;
+  width: 3.36rem;
+  height: 3.2458rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.group-1311 {
+  margin-bottom: 0.0964rem;
+  width: 3.36rem;
+  height: 3.2458rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.copyrights-2021 {
+  max-width: 15.2rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.875;
+  color: #ff5d3a;
+  font-family: Rubik, 'Source Sans Pro';
+}
+.product-1 {
+  margin: 0.301rem 9.6rem 0rem 0rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.product-Copyrights {
+  margin-bottom: 2.495rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.6666666667;
+  color: #0b132a;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.download-Copyrights {
+  margin-bottom: 1.83rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.875;
+  color: #4f5665;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.pricing-Copyrights {
+  margin-bottom: 1.83rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.875;
+  color: #4f5665;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.locations-Copyrights {
+  margin-bottom: 1.83rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.875;
+  color: #4f5665;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.server-Copyrights {
+  margin-bottom: 1.83rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.875;
+  color: #4f5665;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.countries-Copyrights {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.875;
+  color: #4f5665;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.group-1168 {
+  margin: 0.29rem 9.9rem 0rem 0rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.category-Copyrights {
+  margin-bottom: 2.5062rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.6666666667;
+  color: #0b132a;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.men-Copyrights {
+  margin-bottom: 1.83rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.875;
+  color: #4f5665;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.women-Copyrights {
+  margin-bottom: 1.83rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.875;
+  color: #4f5665;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.kids-Copyrights {
+  margin-bottom: 1.83rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.875;
+  color: #4f5665;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.best-seller-Copyrights {
+  margin-bottom: 1.83rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.875;
+  color: #4f5665;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.new-arrivals-Copyrights {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.875;
+  color: #4f5665;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.my-account-4cH {
+  margin-right: 9.9rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.my-account-4cH .my-account-bMK {
+  margin-bottom: 2.796rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.6666666667;
+  color: #0b132a;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.my-account-Y1f {
+  margin-bottom: 1.83rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.875;
+  color: #4f5665;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.discount-Copyrights {
+  margin-bottom: 1.83rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.875;
+  color: #4f5665;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.returns-Copyrights {
+  margin-bottom: 1.83rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.875;
+  color: #4f5665;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.order-history-Copyrights {
+  margin-bottom: 1.83rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.875;
+  color: #4f5665;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.my-account-4cH .order-tracking-Copyrights {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.875;
+  color: #4f5665;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.caontact-us-Byj {
+  margin-bottom: 10.0464rem;
+  width: 26.1rem;
+  flex-shrink: 0;
+}
+.contact-us-Copyrights {
+  margin-bottom: 2.4096rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.6666666667;
+  color: #0b132a;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.group-1317 {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+.frame-1 {
+  margin: 0.48rem 1rem 0.52rem 0rem;
+  width: 2rem;
+  height: calc(100% - 1rem);
+  position: relative;
+  flex-shrink: 0;
+}
+.group-1315 {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: contain;
+  vertical-align: top;
+}
+.solid-navigation-location {
+  width: 1.4rem;
+  height: 1.4rem;
+  position: absolute;
+  left: 0.3rem;
+  top: 0.4rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.street-trafford-london {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.875;
+  color: #000000;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.auto-group45 {
+  box-sizing: border-box;
+  padding-top: 1.83rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.group-1316 {
+  margin-bottom: 1.83rem;
+  width: 17.8rem;
+  height: 3rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.ellipse-4 {
+  width: 2rem;
+  height: 1.932rem;
+  position: absolute;
+  left: 0;
+  top: 0.483rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.solid-communication-envelope {
+  width: 1.4rem;
+  height: 1.3524rem;
+  position: absolute;
+  left: 0.3rem;
+  top: 0.7728rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.infositenamecom {
+  width: 14.8rem;
+  height: 3rem;
+  position: absolute;
+  left: 3rem;
+  top: 0;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.875;
+  color: #000000;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.group-1318 {
+  margin-right: 9.7rem;
+
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.group-1319 {
+  margin: 0.386rem 1rem 0.682rem 0rem;
+  box-sizing: border-box;
+  padding: 0.29rem 0.3rem 0.29rem 0.3rem;
+  height: calc(100% - 1.068rem);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('./assets/ellipse-178.png');
+  flex-shrink: 0;
+}
+.solid-communication-phone {
+  width: 1.4rem;
+  height: 1.3524rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.item-no {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.875;
+  color: #000000;
+  font-family: Rubik, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
