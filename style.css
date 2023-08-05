@@ -357,7 +357,7 @@ body {
   left: 28.5rem;
   top: 12.6rem;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   border-radius: 1rem;
 }
 .button-get-started-a{
@@ -422,7 +422,7 @@ body {
   padding-left: 5rem;
   height: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-shrink: 0;
 }
 .button-get-started-3 {
@@ -564,7 +564,7 @@ body {
   padding: 28.493rem 0rem 0.084rem 5rem;
   height: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   flex-shrink: 0;
 }
 .accessory-no-2 {
@@ -591,7 +591,7 @@ body {
   margin-bottom: 3rem;
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-shrink: 0;
 }
 .mycart {
@@ -1093,7 +1093,7 @@ body {
   padding: 72.27rem 0rem 0rem 2rem;
   height: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   flex-shrink: 0;
 }
 .auto-group23 {
@@ -1168,7 +1168,7 @@ body {
   margin-bottom: 2.736rem;
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-shrink: 0;
 }
 .nike-air-mens-hoodie-imported-hoodie-4 {
